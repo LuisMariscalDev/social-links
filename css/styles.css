@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     border-radius: 10px;
     width: 350px;
-    height: 550px;
+    height: 520px;
     align-items: center;
     position: absolute; /* Para centrar vertical y horizontalmente */
     top: 50%; /* Coloca la parte superior del contenedor en el 50% del viewport */
@@ -46,7 +46,7 @@ body {
 }
 .job {
     color: var(--White);
-    font-size: 14px;
+    font-size: 12px;
 }
 .avatar-cont,
 .personal{
@@ -72,6 +72,12 @@ body {
     margin: 0;
     width: 90%;
 }
+
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+
 li {
     background-color: var(--grey);
     padding: 10px;
@@ -80,12 +86,15 @@ li {
     justify-content: center;
     margin: 15px 0;
     border-radius: 10px;
-    color: var(--White);
     font-size: 14px;
     font-weight: bold;
 }
+
 li:hover {
     cursor: pointer;
     background-color: var(--green);
+}
+
+li:hover a {
     color: black;
 }
